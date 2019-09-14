@@ -9,4 +9,14 @@
   </br>
 </h1>
 
-### _🕷️ Features_
+### _🕷️ Available command line options_
+[`READ WIKI`](https://github.com/BrahimJarrar/vulnx/)
+
+    usage: vulnx [options]
+      -h , --help           show this help message and exit
+      -s , --ssid           SSID WIFI Target
+      -w , --wordlist       list of passwords
+      -t , --threads        number of threads #Comming soon
+      -v , --version        version
+
+-------------------------------------
