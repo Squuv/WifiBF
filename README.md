@@ -4,8 +4,6 @@
   </br>
   <br>
   <a href="https://github.com/BrahimJarrar/"><img src="screenshot/screen.PNG" alt="VulnX"></a>
-  <br>
-  VulnX
   </br>
 </h1>
 
