@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  WIFI-Brute-Force
+  WIFI-Brute-Force V1
   </br>
   <br>
   <a href="https://github.com/BrahimJarrar/"><img src="screenshot/screen.PNG" alt="VulnX"></a>
