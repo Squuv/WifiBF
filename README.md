@@ -10,7 +10,7 @@
 </h1>
 
 ### _🕷️ Available command line options_
-[`CopyRight`](https://github.com/BrahimJarrar/vulnx/)
+[`CopyRight`](https://github.com/BrahimJarrar/)
 
     usage: vulnx [options]
       -h , --help           show this help message and exit
