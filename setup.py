@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python 3.7
+﻿#!/usr/bin/env python3.7
 # -*- coding: utf-8 -*-
 
 import pywifi
@@ -15,6 +15,7 @@ import time
 
 # By Brahim Jarrar ~
 # GITHUB : https://github.com/BrahimJarrar/ ~
+# Facebook : jarrar.brahim.79
 # CopyRight 2019 ~
 
 
