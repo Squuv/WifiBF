@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3.7
+#!/usr/bin/env python 3.7
 # -*- coding: utf-8 -*-
 
 import pywifi
@@ -8,6 +8,7 @@ from pywifi import Profile
 import argparse
 import sys
 import os
+import os.path
 import platform
 import re
 import time
@@ -15,10 +16,7 @@ import time
 
 # By Brahim Jarrar ~
 # GITHUB : https://github.com/BrahimJarrar/ ~
-# Facebook : jarrar.brahim.79
 # CopyRight 2019 ~
-
-
 
 RED   = "\033[1;31m"  
 BLUE  = "\033[1;34m"
@@ -106,13 +104,19 @@ def menu():
         print(BLUE)
         ssid = input("[*] SSID: ")
         filee = input("[*] pwds file: : ")
-    
-    
-    if platform.system().startswith("Win" or "win"):
-        os.system("cls")
-    else:
-        os.system("clear")
-    print(BLUE, "[+] Cracking...")
-    pwd(ssid, filee)
+
+
+        # thx
+        if os.path.exists(filee):
+            if platform.system().startswith("Win" or "win"):
+                os.system("cls")
+            else:
+                os.system("clear")
+            print(BLUE,"[~] Cracking...")
+            pwd(ssid, filee)
+        else:
+            print(RED,"[-] No Such File.",BLUE)
+
+
 if __name__ == "__main__":
     menu()
