@@ -52,9 +52,9 @@ def main(ssid, password, number):
     profile.key = password
     iface.remove_all_network_profiles()
     tmp_profile = iface.add_network_profile(profile)
-    time.sleep(0.1)
+    time.sleep(0.1) # if script not working change time to 1 !!!!!!
     iface.connect(tmp_profile) # trying to Connect
-    time.sleep(0.35)
+    time.sleep(0.35) # 1s
 
     if ifaces.status() == const.IFACE_CONNECTED: # checker
         time.sleep(1)
@@ -106,16 +106,18 @@ def menu():
         filee = input("[*] pwds file: : ")
 
 
-        # thx
-        if os.path.exists(filee):
-            if platform.system().startswith("Win" or "win"):
-                os.system("cls")
-            else:
-                os.system("clear")
-            print(BLUE,"[~] Cracking...")
-            pwd(ssid, filee)
+    # thx
+    if os.path.exists(filee):
+        if platform.system().startswith("Win" or "win"):
+            os.system("cls")
         else:
-            print(RED,"[-] No Such File.",BLUE)
+            os.system("clear")
+
+        print(BLUE,"[~] Cracking...")
+        pwd(ssid, filee)
+
+    else:
+        print(RED,"[-] No Such File.",BLUE)
 
 
 if __name__ == "__main__":
