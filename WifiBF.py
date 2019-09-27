@@ -37,17 +37,19 @@ RESET = "\033[0;0m"
 BOLD    = "\033[;1m"
 REVERSE = "\033[;7m"
 
-# wlan
-wifi = PyWiFi()
-ifaces = wifi.interfaces()[0]
+try:
+    # wlan
+    wifi = PyWiFi()
+    ifaces = wifi.interfaces()[0]
 
-ifaces.scan() #check the card
-results = ifaces.scan_results()
+    ifaces.scan() #check the card
+    results = ifaces.scan_results()
 
 
-wifi = pywifi.PyWiFi()
-iface = wifi.interfaces()[0]
-
+    wifi = pywifi.PyWiFi()
+    iface = wifi.interfaces()[0]
+except:
+    print("[-] Error system")
 
 type = False
 
