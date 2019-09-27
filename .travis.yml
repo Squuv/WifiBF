@@ -11,7 +11,7 @@ install:
 before_script:
   - pip install pywifi
 script:
-  - python WifiBF.py -v
+  - python WifiBF.py -v version
 
 deploy:
   github-token: $GITHUB_TOKEN
