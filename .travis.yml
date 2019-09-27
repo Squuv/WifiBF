@@ -6,7 +6,6 @@ os:
   # os building
   - linux
 before_script:
-  - apt install python3-pip
   - pip install pywifi
 install:
   # install packages.
