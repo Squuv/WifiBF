@@ -13,6 +13,3 @@ install:
 script:
   - pip install pywifi
   - python3 WifiBF.py -v version
-
-deploy:
-  github-token: $GITHUB_TOKEN
