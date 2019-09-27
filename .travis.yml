@@ -4,7 +4,7 @@ python:
   - 3.7
 os:
   # os building
-  - windows
+  - linux
 install:
   # install packages.
   - pip install -r ./requirements.txt
