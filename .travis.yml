@@ -9,11 +9,10 @@ install:
   # install packages.
   - pip install -r requirements.txt
 before_script:
+  - apt install python3-pip
   - pip install pywifi
-  - pip install argparse
-  - pip install re
 script:
-  - python WifiBF.py -v version
+  - python3 WifiBF.py -v version
 
 deploy:
   github-token: $GITHUB_TOKEN
