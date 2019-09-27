@@ -1,10 +1,6 @@
 #!/usr/bin/env python 3.7
 # -*- coding: utf-8 -*-
 
-import pywifi
-from pywifi import PyWiFi
-from pywifi import const
-from pywifi import Profile
 import argparse
 import sys
 import os
@@ -12,6 +8,21 @@ import os.path
 import platform
 import re
 import time
+try:
+    import pywifi
+    from pywifi import PyWiFi
+    from pywifi import const
+    from pywifi import Profile
+except:
+    print("Installing pywifi")
+    os.system("pip install pywifi")
+    try:
+        import pywifi
+        from pywifi import PyWiFi
+        from pywifi import const
+        from pywifi import Profile
+    except:
+        print("[-] Failded")
 
 
 # By Brahim Jarrar ~
