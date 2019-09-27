@@ -10,7 +10,6 @@ install:
   - pip install -r requirements.txt
 before_script:
   - pip install pywifi
-  - pip install platform
   - pip install argparse
   - pip install re
 script:
