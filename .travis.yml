@@ -11,7 +11,7 @@ install:
 before_script:
   - pip install pywifi
 script:
-  - python WifiBF.py -ssid ooredooE8CBD1 --wordlist pwd.txt
+  - python WifiBF.py -v
 
 deploy:
   github-token: $GITHUB_TOKEN
