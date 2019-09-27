@@ -14,4 +14,7 @@ script:
   - python3 WifiBF.py -v version
 
 deploy:
+  skip-cleanup: true
   github-token: $GITHUB_TOKEN
+  on:
+    branch: master
