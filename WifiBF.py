@@ -15,14 +15,6 @@ try:
     from pywifi import Profile
 except:
     print("Installing pywifi")
-    os.system("pip install pywifi")
-    try:
-        import pywifi
-        from pywifi import PyWiFi
-        from pywifi import const
-        from pywifi import Profile
-    except:
-        print("[-] Failded")
 
 
 # By Brahim Jarrar ~
