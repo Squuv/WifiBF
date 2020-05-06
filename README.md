@@ -4,13 +4,6 @@
   <a><img src="https://travis-ci.org/BrahimJarrar/WIFI-Brute-Force.svg?branch=master"></a>
   </br>
   </h1>
- <h1 align="center">
-  <br>
-  <a href="https://github.com/BrahimJarrar/"><img src="screenshot/screen.PNG" alt="Cracking"></a>
-  </br>
-</h1>
-
--------------------------------------
 
 ### How to use it in your Mac ?  
 This project can run well on Windows and Linux. 
@@ -45,3 +38,9 @@ You can enjoy WIFI-Brute-Force.
       -v , --version        version
 
 -------------------------------------
+
+<h1 align="center">
+  <br>
+  <a href="https://github.com/BrahimJarrar/"><img src="screenshot/screen.PNG" alt="Cracking" width="90%"></a>
+  </br>
+</h1>
